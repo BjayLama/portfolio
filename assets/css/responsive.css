@@ -527,6 +527,7 @@
     }
     .footer-bg-text {
         font-size: 17vw;
+        margin-bottom: 35px;
     }
     .stack-offset {
         height: 3rem;
@@ -544,6 +545,12 @@
         padding-bottom: 25px;
     }
     .skill-giff {
+        display: none;
+    }
+    .about-bottom-content .footer-bg-text-2 {
+        font-size: 15vw
+    }
+    .services-stack__descr {
         display: none;
     }
 }
