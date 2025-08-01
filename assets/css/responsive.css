@@ -495,6 +495,46 @@
     .about-bottom-content-wrap .img-box {
         height: 516px;
     }
+
+    .intro-text .giff-1 img, .my-info img {
+        height: max(28px);
+    }
+    .about-bottom-content-wrap .about-bottom-content h4.intro-text {
+        font-size: 22px;
+    }
+    .project {
+        padding: 75px 20px 100px;
+    }
+    .pin-spacer {
+        width: 100% !important;
+    }
+    .services-stack__title h3 {
+        font-size: 28px;
+    }
+    .services-stack__title {
+        padding: 2.6rem 16px 3rem;
+        text-align: center;
+    }
+    .bg-brown .services-stack__title a {
+        font-size: 14px;
+    }
+    .skills-collection {
+        padding: 0 15px;
+    }
+    .footer-area {
+        height: 50vh;
+    }
+    .footer-bg-text {
+        font-size: 17vw;
+    }
+    .stack-offset {
+        height: 3rem;
+    }
+    .intro-image {
+        width: 240px;
+        transform: translateX(-50%);
+        right: -14%;
+    }
 }
 
 @keyframes workdetailsAnim2 {
