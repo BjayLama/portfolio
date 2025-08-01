@@ -500,7 +500,7 @@
         height: max(28px);
     }
     .about-bottom-content-wrap .about-bottom-content h4.intro-text {
-        font-size: 22px;
+        font-size: 32px;
     }
     .project {
         padding: 75px 20px 100px;
@@ -523,6 +523,7 @@
     }
     .footer-area {
         height: 50vh;
+        padding-top: 75px;
     }
     .footer-bg-text {
         font-size: 17vw;
@@ -533,7 +534,17 @@
     .intro-image {
         width: 240px;
         transform: translateX(-50%);
-        right: -14%;
+        right: auto;
+        left: 50%;
+    }
+    .services-stack__image {
+        padding-left: 0;
+    }
+    .about-bottom-content-wrap .about-bottom-content {
+        padding-bottom: 25px;
+    }
+    .skill-giff {
+        display: none;
     }
 }
 

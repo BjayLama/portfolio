@@ -2996,9 +2996,9 @@ strong {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .services-stack__image .service-img-m {
+  /* .services-stack__image .service-img-m {
     display: none;
-  }
+  } */
   @media only screen and (min-width: 768px) {
     .services-stack__image {
       position: absolute;
