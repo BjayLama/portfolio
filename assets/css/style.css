@@ -380,6 +380,7 @@ strong {
     justify-content: center;
     gap: 30px;
     padding-bottom: 30px;
+    position: relative;
 }
 .hero-sec .hero-sec-content h1 > span {
     overflow: hidden;
@@ -3337,6 +3338,20 @@ strong {
 .giff-1.heart img {
     width: 50px;
     height: 50px;
+    animation: pulse 2.1s infinite ease-in-out;
+    transform-origin: center;
+    padding-bottom: 5px;
+  }
+    .giff-1.heart.small, .giff-1.globe.small {
+        position: absolute;
+        top:  -55px; 
+        width: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  .giff-1.heart.small img, .giff-1.globe.small img {
+    width: 20px;
+    height: 20px;
     animation: pulse 2.1s infinite ease-in-out;
     transform-origin: center;
     padding-bottom: 5px;
