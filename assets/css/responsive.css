@@ -571,6 +571,12 @@
     .header-wrap {
         padding: 15px;
     }
+    .giff-1.heart.small, .giff-1.globe.small {
+        top: 0;
+    }
+    .hero-sec-content {
+        padding-top: 45px;
+    }
 }
 
 @keyframes workdetailsAnim2 {
