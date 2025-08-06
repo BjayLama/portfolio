@@ -191,7 +191,7 @@
                     <div class="about-bottom-content-wrap">
                         <div class="about-bottom-content">
                             <div>
-                                <h4 class="intro-text">
+                                <h4 class="intro-text split">
                                     I'm Bijay, I work as a
                                     <!-- <span class="giff-1">
                                         <img src="./assets/imgs/sun.svg" alt="">
@@ -308,6 +308,22 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- services stack single item -->
+                                <!-- <div class="stack-item">
+                                    <div class="services-stack__inner bg-grey">
+                                        <div class="services-stack__title">
+                                            <h3>TRAVELLER THOUGHTS</h3>
+                                            <a
+                                                href="https://bjaylama.github.io/travellerThoughts/">travellerThoughts</a>
+                                        </div>
+
+                                        <div class="services-stack__image">
+
+                                            <img class="service-img service-img-m" src="assets/imgs/travel-project.jpg"
+                                                alt="Service/Feature Image">
+                                        </div>
+                                    </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -445,15 +461,43 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
     <script src="assets/js/ScrollToPlugin.min.js"></script>
 
     <script src="assets/js/ScrollSmoother.min.js"></script>
     <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+
     <script src="assets/js/jarallax.js"></script>
     <script src="assets/js/jarallax-element.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/themescroll.js"></script>
+
+    <!-- <script>
+        gsap.registerPlugin(SplitText, ScrollTrigger);
+
+        document.fonts.ready.then(() => {
+            const splitText = new SplitText(".split", {
+                type: "lines,words",
+                linesClass: "line"
+            });
+
+            gsap.from(splitText.lines, {
+                yPercent: 100,
+                opacity: 0,
+                duration: 2.5,
+                ease: "power2.out",
+                stagger: 0.2,
+                scrollTrigger: {
+                    trigger: ".split",
+                    start: "top 80%",
+                    toggleActions: "play none none none",
+                    markers: false // set true to debug
+                }
+            });
+        });
+
+
+    </script> -->
 </body>
 
 
